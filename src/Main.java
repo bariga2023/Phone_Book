@@ -119,38 +119,5 @@ public class Main extends Application{
 
         window.setScene(scene);
         window.show();
-
-        /**
-        window = primaryStage;
-
-        String x = "hi" + 1;
-        Label label1 = new Label(x);
-        Button button1 = new Button("Go to scene 2");
-        button1.setOnAction(e -> window.setScene(scene2));
-        primaryStage.setTitle("Title of the Window");
-
-
-
-        //layout1
-
-        VBox layout1 = new VBox(20);
-        layout1.getChildren().addAll(label1, button1);
-        scene1 = new Scene(layout1, 200, 200);
-
-
-        Button button2 = new Button("go back to scene 1");
-        button2.setOnAction(e -> window.setScene(scene1));
-        StackPane layout2 = new StackPane();
-        layout2.getChildren().add(button2);
-        scene2 = new Scene(layout2, 600, 200);
-
-
-        window.setScene(scene1);
-        window.setTitle("new window");
-        window.show();
-         */
-
     }
-
-
 }
